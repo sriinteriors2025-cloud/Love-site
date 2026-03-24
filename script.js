@@ -1,4 +1,4 @@
-const text = "Advance Happy Birthday My dear Pondati";
+const text = "Advance Happy Birthday Ennavalae";
 let index = 0;
 
 function typeEffect() {
