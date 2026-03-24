@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>For My Love ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="center dark">
+<div class="card glass">
+    <h2>💖 Enter Our Secret</h2>
+    <input type="password" id="pass" placeholder="Our special word">
+    <button onclick="check()">Unlock 💕</button>
+    <p id="error"></p>
+</div>
+<script>
+function check(){
+    let p = document.getElementById("pass").value;
+    if(p === "iloveyou"){
+        window.location.href = "letter.html";
+    } else {
+        document.getElementById("error").innerText = "Try again 😘";
+    }
+}
+</script>
+</body>
+</html>
